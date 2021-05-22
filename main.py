@@ -9,7 +9,7 @@ client = discord.Client()
 
 '''REPLACE TOKEN WITH os.environ['TK'] REPLACE TOKEN WITH os.environ['TK'] REPLACE TOKEN WITH os.environ['TK'] '''
 
-TOKEN = 'ODQ1NTEyOTA1MDUwNDIzMzE3.YKiDQQ.hM6w3ih0jwSew_WhC_2vJYs0d3c'
+TOKEN = os.environ['TK']
 
 '''REPLACE TOKEN WITH os.environ['TK'] REPLACE TOKEN WITH os.environ['TK'] REPLACE TOKEN WITH os.environ['TK'] '''
 
