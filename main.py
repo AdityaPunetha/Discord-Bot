@@ -1,7 +1,8 @@
 import discord
 
 client = discord.Client()
-TOKEN=ODQ1NTEyOTA1MDUwNDIzMzE3.YKiDQQ.hM6w3ih0jwSew_WhC_2vJYs0d3c
+TOKEN = 'ODQ1NTEyOTA1MDUwNDIzMzE3.YKiDQQ.hM6w3ih0jwSew_WhC_2vJYs0d3c'
+
 
 @client.event
 async def on_ready():
@@ -15,4 +16,5 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send("Hello!")
 
-client.run()
+
+client.run(TOKEN)
