@@ -33,6 +33,13 @@ def update_encouragements(encouraging_message):
         db["encouragements"] = encouraging_message
 
 
+def delete_encouragment(index):
+    encouragements = db["encouragements"]
+    if len(encouragements) > index:
+        del encouragements[index]
+        db["encouragements"] = encouragements
+
+
 @client.event
 async def on_ready():
     print("We have logged in as {0.user}".format(client))
